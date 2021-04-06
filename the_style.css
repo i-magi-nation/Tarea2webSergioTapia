@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+    padding: 0;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#mensaje{
+	display: none;
+}
+
+#contenedor{
+	width: 600px;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	background: #C3FF33;   
+}
+
+#datos{
+	height: 19%;
+	background: #A4A4A4;
+	margin:0.5em; 
+}
+#nav{
+	height: 3%;
+	background: #424242;
+	margin:0.5em ;
+}
+
+#conocimiento{
+	height: 3%;
+	background: #A4A4A4;
+	margin:0.5em;	
+}
+
+#lenguajes{
+	height: 20%;
+	width: 65%;
+	background: #A4A4A4;
+	border-radius: 0.2em;
+}
+
+
+#rango{
+    width: 95%;
+}
+#about{
+    padding-bottom: 200px;
+    padding-right: 155px;
+}
+

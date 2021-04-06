@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<title>TareaWeb2SergioTapia</title>
+		<meta name="encoding" content="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="the_style.css">
+
+	</head>
+
+	<body>
+        <div id ="mensaje"> </div>
+		<div id="contenedor">
+			<form id="form">
+				<div id="datos">Datos Usuario:<br>
+					<label for="nombre">Nombre: </label>
+						 <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre" required ="true" > <br>
+					<label for="apellidos">Apellidos: </label>
+						<input type="text" placeholder="Ingrese su apellido" name="apellidos" id="apellidos" required ="true"  ><br>
+					<label for="rut">RUT: </label>
+						<input type="text" placeholder="Ingrese su rut" name="rut" id="rut" required ="true" ><br>
+					<label for="correo">Correo Electrónico: </label>
+						<input type="email" placeholder="Ingrese correo electronico" name="correo" id="correo" required ="true" ><br>
+					<label for="Telefono Movil">Teléfono Móvil: </label>
+						<input type="tel" pattern="[0-9]{9}" placeholder="Ingrese telefono movil" name="movil" id="movil" required ="true"  ><br>
+		   		</div>
+
+				<div id="nav" style = "color: white";>--------Seleccione lenguajes de programacion de su interes--------</div>
+
+				<div id="lenguajes">
+				<div id="section">Lenguajes de Programacion:</div>
+				 <input type="checkbox" id="python"> Python<br>
+        		 <input type="checkbox" id="java"> Java<br>
+       			 <input type="checkbox" id="ts"> TypeScript<br>
+       			 <input type="checkbox" id="php"> PHP<br>
+       			 <input type="checkbox" id="c"> C#<br>
+        		 <input type="checkbox" id="cpp"> C++<br>
+				</div>
+				<div id="nav"  style = "color: white";> Nivel de conocimiento en programacion: </div>
+            
+            	<div id="conocimiento">
+            		<input type="range" name="rango" id="rango">	
+           		</div> 
+
+            	<div id="nav" style = "color: white";>Años de experiencia:</div>
+ 
+	            <div id="conocimiento"> 
+    	        	<input type="radio" id="1" name="nivel" value="1">
+        			<label for="1">1</label>
+        			<input type="radio" id="2" name="nivel" value="2">
+        			<label for="2">2</label>
+        			<input type="radio" id="3" name="nivel" value="3">
+        			<label for="3">3</label>
+        			<input type="radio" id="4" name="nivel" value="4">
+        			<label for="4">4</label>
+        			<input type="radio" id="5" name="nivel" value="5">
+        			<label for="5">5</label>
+            	</div> 
+            	<div id="lenguajes">
+            		<input type="text" name="about" placeholder="Hablenos de Usted" id="about" maxlength="300">
+            	</div>
+
+        			<input type="submit" value="Enviar Datos" id="enviar">
+        			<input type="button" value="Limpiar Datos" id="limpiar">
+			</form>
+			<script src="just.js" async></script>
+		</div>
+
+        	
+	</body>
+</html>
